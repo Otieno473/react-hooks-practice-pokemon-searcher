@@ -1,12 +1,11 @@
-import React from "react";
-import PokemonPage from "./PokemonPage";
+import React from 'react'
+import PokemonIndex from './components/PokemonIndex'
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <PokemonPage />
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <PokemonIndex />
+  </div>
+)
 
-export default App;
+export default App
